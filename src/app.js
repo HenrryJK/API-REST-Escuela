@@ -10,7 +10,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.get('/',function(req, res, next){
-    res.send('Se ha establecido la Conexion , Bienvenido!');
+    res.send('Se ha establecido la Conexion , Bienvenido al Sistema!');
 });
 app.use('/alumnos', alumnoRoutes);
 
